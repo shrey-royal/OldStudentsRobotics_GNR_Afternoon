@@ -13,9 +13,9 @@ void blinkSetup(int ledPin) {
 }
 
 void blinkLoop(int ledPin) {  
-  digitalWrite(led, HIGH);
+  digitalWrite(ledPin, HIGH);
   delay(500);
   
-  digitalWrite(led, LOW);
+  digitalWrite(ledPin, LOW);
   delay(500);
 }
