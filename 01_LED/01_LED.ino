@@ -6,13 +6,16 @@
 // int w = 10;
 
 //2-1_Multiple_LEDs declarations
-int l[] = {12, 11, 10, 9, 8};
-int size = sizeof(l)/sizeof(l[0]);
+// int l[] = {12, 11, 10, 9, 8};
+// int size = sizeof(l)/sizeof(l[0]);
+
+//3_Fade declarations
+int led = 3;
 
 void setup() {
-  multipleLedSetup2(l, size);
+  fadeSetup(led);
 }
 
 void loop() {
-  multipleLedLoop2(l, size);
+  fadeLoop(led);
 }
