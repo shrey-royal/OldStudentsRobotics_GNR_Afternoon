@@ -4,7 +4,7 @@ void btnStateSetup(int btnPin) {
   pinMode(btnPin, INPUT_PULLUP);
 }
 
-void btnStateLoop(int lastState, int currState) {
+void btnStateLoop(int btnPin, int lastState, int currState) {
   // put your main code here, to run repeatedly:
   currState = digitalRead(btnPin);
   Serial.println(currState);

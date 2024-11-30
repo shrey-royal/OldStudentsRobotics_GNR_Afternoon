@@ -8,14 +8,19 @@ int currState;
 */
 
 // 2-2
-int btnPin = 7;
-int led = 13;
-int btnState;
+// int btnPin = 7;
+// int led = 13;
+// int btnState;
+
+
+// 2-3  
+int btn = 7;
+int l1 = 4, l2 = 5;
 
 void setup() {
-  btnLedSetup(btnPin, led);
+  btnLedsSetup(btn, l1, l2);
 }
 
 void loop() {
-  btnLedLoop(btnPin, led, btnState);
+  btnLedsLoop(l1, l2);
 }
