@@ -4,7 +4,7 @@ void btnLedsSetup(int btn, int l1, int l2) {
   pinMode(btn, INPUT_PULLUP);
 }
 
-void btnLedsLoop(int l1, int l2) {
+void btnLedsLoop(int btn, int l1, int l2) {
   int ls, cs;
   cs = digitalRead(btn);
 
