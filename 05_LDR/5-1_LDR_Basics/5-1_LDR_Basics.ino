@@ -13,5 +13,5 @@ void loop() {
   else
     Serial.println("Lights are OFF!");
 
-  delay();
+  // delay();
 }
